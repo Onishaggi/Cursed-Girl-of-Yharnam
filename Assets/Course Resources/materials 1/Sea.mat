@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2105214436487457624
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sea
+  m_Shader: {fileID: -6465566751694194690, guid: d9a4da16eed9c5e4594baecf15f4ccad, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _Water_Hieght_Map
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Water_Hieght_Map:
+        m_Texture: {fileID: 2800000, guid: 43fdb70b094fe2343b61def5161cbdec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Water_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 826b1dccc0af0ad4486c150825c28ec9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _Depth_Distance: 0
+    - _Normal_Strength: 1.29
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _WaterTiling: 0.1
+    - _Water_Height: 0.6
+    - _smoothness: 0.9
+    m_Colors:
+    - _Deep_color: {r: 0, g: 0.09816251, b: 0.12578613, a: 0}
+    - _ReverseTideSpeed: {r: -0.2, g: -0.2, b: 0, a: 0}
+    - _ReverseTileSpeed: {r: -0.5, g: -0.5, b: 0, a: 0}
+    - _Shallow_color: {r: 0, g: 0.6100628, b: 0.4432713, a: 0}
+    - _WaterSpeed: {r: 0.09, g: 0.05, b: 0, a: 0}
+    - _WaterTideSpeed: {r: 0.09, g: 0.01, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1724679512474436018
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

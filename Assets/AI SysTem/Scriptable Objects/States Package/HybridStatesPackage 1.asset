@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f0fd30a378aec4cb1db5b37b201eee, type: 3}
+  m_Name: HybridStatesPackage 1
+  m_EditorClassIdentifier: 
+  _states:
+  - {fileID: 11400000, guid: 49b38e65d0fa88948a32e23df7c9037e, type: 2}
+  - {fileID: 11400000, guid: 22b8246a05248794db4d0e3004b1ba7e, type: 2}
+  - {fileID: 11400000, guid: babd6746da62c7449a6a1fd318460251, type: 2}
+  _activationDistance:
+  - 5
+  - 3

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63ed24ab78e4184985754611ff2fd40, type: 3}
+  m_Name: Quest 4
+  m_EditorClassIdentifier: 
+  _goToLocTypes: []
+  _talkToNPCTasks: []
+  _findObjectTasks:
+  - {fileID: 11400000, guid: 7af897706e0b17946b9a748b574070ab, type: 2}
+  _eleminateEnemiesTasks:
+  - {fileID: 11400000, guid: cf9b2848fd14c4d4980e62f086af8a0d, type: 2}
+  _dontIncludeQuest: 0

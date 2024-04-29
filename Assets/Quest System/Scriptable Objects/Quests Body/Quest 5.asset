@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63ed24ab78e4184985754611ff2fd40, type: 3}
+  m_Name: Quest 5
+  m_EditorClassIdentifier: 
+  _goToLocTypes: []
+  _talkToNPCTasks:
+  - {fileID: 232751577579123165}
+  _findObjectTasks: []
+  _eleminateEnemiesTasks: []
+--- !u!114 &232751577579123165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd1fdc4cd8c3e4408468c230fce1ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _taskText: Go Back To The Cursed Girl
+  _npcTag: CursedGirl
+  _isCompleted: 0

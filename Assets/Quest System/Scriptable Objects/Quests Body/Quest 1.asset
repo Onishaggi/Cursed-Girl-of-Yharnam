@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9214608103519495232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fdf254e200b1dc47ac5c30ef8fadc17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _taskText: red
+  _objectTag: RedJewelBrooch
+--- !u!114 &-7924302921868806025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f093d537715b3884ab486048df393a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _taskText: 
+  _destination: {x: 0, y: 0, z: 0}
+  _destinationTriggerObject: {fileID: 0}
+  _destinationTriggerObjectTag: 
+--- !u!114 &-7386933262654333579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f093d537715b3884ab486048df393a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _taskText: Go TO YAAR
+  _destination: {x: -4.07, y: -8.44, z: 32.66}
+  _destinationTriggerObject: {fileID: 1497581040842281517, guid: 8a1c4b89b3cb8c84e99fd8d88858dc05, type: 3}
+  _destinationTriggerObjectTag: YharmanArea
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63ed24ab78e4184985754611ff2fd40, type: 3}
+  m_Name: Quest 1
+  m_EditorClassIdentifier: 
+  _goToLocTypes: []
+  _talkToNPCTasks:
+  - {fileID: 11400000, guid: ad613db26f0b0ac46a70ee0b0ffd1b94, type: 2}
+  _findObjectTasks: []
+  _eleminateEnemiesTasks: []
+--- !u!114 &5632916619655641978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f093d537715b3884ab486048df393a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _taskText: 
+  _destination: {x: 0, y: 0, z: 0}
+  _destinationTriggerObject: {fileID: 0}
+  _destinationTriggerObjectTag: 
+--- !u!114 &6726595371836362411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f093d537715b3884ab486048df393a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _taskText: 
+  _destination: {x: 0, y: 0, z: 0}
+  _destinationTriggerObject: {fileID: 0}
+  _destinationTriggerObjectTag: 

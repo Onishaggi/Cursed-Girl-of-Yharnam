@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836d9496fa174644892a4f55ad96bb32, type: 3}
+  m_Name: New AI Utility Aggressor Enemy Presets
+  m_EditorClassIdentifier: 
+  _targetInfo: {fileID: 11400000, guid: 3286dbdf42f38ee44a2d56d945d154e1, type: 2}
+  _statesPackage: {fileID: 11400000, guid: ddcf6e06f3a0f3043b8936a65b9a6416, type: 2}
+  _movementStats: {fileID: 11400000, guid: d01dc80a983dc814faaba7fba38d422e, type: 2}

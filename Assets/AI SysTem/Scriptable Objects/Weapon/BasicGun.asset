@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d42250c703d3c4b9b6b08bf5850415, type: 3}
+  m_Name: BasicGun
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 7158796042653482297, guid: a62aa771ce486424c847b092a7ada16a, type: 3}
+  _fireRate: 1
